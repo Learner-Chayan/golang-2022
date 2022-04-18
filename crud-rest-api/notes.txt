@@ -1,0 +1,12 @@
+reference:
+https://towardsdev.com/building-basic-restful-crud-with-golang-mysql-6869dfdefade
+
+
+go mod init github.com/go-rest-example 
+go get github.com/gorilla/mux
+go get github.com/jinzhu/gorm
+go get github.com/go-sql-driver/mysql
+
+
+Database:
+CREATE DATABASE learning;

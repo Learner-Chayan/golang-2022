@@ -1,0 +1,17 @@
+** Go Micro is:
+-> A library written in Go
+-> A set of pluggable interfaces
+-> RPC based
+
+** Go Micro provides interfaces for:
+-> Service Discovery
+-> Encoding
+-> Client/Server
+-> Pub/Sub
+
+** Remote Procedure Call
+(Remote Procedure Call) A programming interface that allows one program to use the services of another program in a remote machine. The calling program sends a message and data to the remote program, which is executed, and results are passed back to the calling program.
+
+** RPC vs REST 
+-> REST utilizes HTTP methods GET, POST, PUT, PATCH, and DELETE to perform CRUD operations. However, RPC only supports GET and POST requests.
+-> RPC implementations require payloads of certain data types such as XML for XML-RPC. In contrast, REST allows the client to specify Content-types or accept headers.

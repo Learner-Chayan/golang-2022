@@ -1,0 +1,14 @@
+*Protobuf allows to define the required data structures using its IDL(in .proto files)
+*Using that IDL as the source we can generate source code for multiple languages(go, java etc)
+* Protobuf is used by default to define messages and services in gRPC.
+Benifits
+...........
+* Data is binary and efficiently serialized.
+* Data is fully typed.
+* Data is compressed automatically.
+
+
+
+proto file generate command - example from education service : 
+.............................
+$ protoc --go_out=. --micro_out=. api/education.proto
